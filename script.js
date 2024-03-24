@@ -75,10 +75,10 @@ for (let i = 0; i < user.length; i++) {
 
 let userAmbassador = []
 
-for (let i=0; i < user.length; i++) {
+for (let i = 0; i < user.length; i++) {
   let ambassador = user[i]
   if (ambassador.isAmbassador)
-  userAmbassador.push(ambassador)
+    userAmbassador.push(ambassador)
 }
 
 console.log(userAmbassador)
